@@ -2,7 +2,7 @@
 #include <FL/fl_draw.H>
 #include <FL/Fl_Window.H>
 #include <FL/Fl_Double_Window.H>
-#include <FL/FL_Image.H>
+#include <FL/Fl_Image.H>
 #include <FL/Fl_Int_Input.H>
 #include <FL/Fl_Output.H>
 #include <FL/Fl_Round_Button.H>
