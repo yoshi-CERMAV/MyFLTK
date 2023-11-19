@@ -294,7 +294,7 @@ Fl_Output *cb_info=(Fl_Output *)0;
 static void button_cb(Fl_Button *b, void *) {
   char msg[256];
   sprintf(msg, "Label: '%s'\nValue: %d", b->label(),b->value());
-    if(! strncmp(b->label(), "double", 6)) data_mode = 1;
+    if(! strncmp(b->label(), "subtracted", 6)) data_mode = 1;
     if(! strncmp(b->label(), "raw", 3)) data_mode = 0;
     if(! strncmp(b->label(), "filtered", 6)) data_mode = 2;
    file_num_changed(NULL, NULL);
