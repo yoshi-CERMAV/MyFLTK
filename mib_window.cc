@@ -150,6 +150,8 @@ public:
     Fl_Input(x, y, w, h, l){
         setv(v);
         tab_nav(1);
+        when(FL_WHEN_ENTER_KEY);
+
     }
     void setv(double v){
         val = v;
